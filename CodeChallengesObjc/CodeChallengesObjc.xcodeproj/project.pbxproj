@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		348B81E92226EFA600735CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348B81E82226EFA600735CF8 /* main.m */; };
-		348B81F12226F1D900735CF8 /* DRMCodeChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 348B81F02226F1D900735CF8 /* DRMCodeChallenge.m */; };
+		340E59D12226F6F30073249B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E59D02226F6F30073249B /* main.m */; };
+		340E59D72226F7260073249B /* DRMCodeChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E59D62226F7260073249B /* DRMCodeChallenge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		348B81E32226EFA600735CF8 /* CopyFiles */ = {
+		340E59CC2226F6F30073249B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		348B81E52226EFA600735CF8 /* FizzBuzzObjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FizzBuzzObjc; sourceTree = BUILT_PRODUCTS_DIR; };
-		348B81E82226EFA600735CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		348B81EF2226F1D900735CF8 /* DRMCodeChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRMCodeChallenge.h; sourceTree = "<group>"; };
-		348B81F02226F1D900735CF8 /* DRMCodeChallenge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRMCodeChallenge.m; sourceTree = "<group>"; };
+		340E59CE2226F6F30073249B /* CodeChallengesObjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeChallengesObjc; sourceTree = BUILT_PRODUCTS_DIR; };
+		340E59D02226F6F30073249B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		340E59D52226F7260073249B /* DRMCodeChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMCodeChallenge.h; sourceTree = "<group>"; };
+		340E59D62226F7260073249B /* DRMCodeChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMCodeChallenge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		348B81E22226EFA600735CF8 /* Frameworks */ = {
+		340E59CB2226F6F30073249B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,10 +41,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340E59CF2226F6F30073249B /* CodeChallengesObjc */ = {
+			isa = PBXGroup;
+			children = (
+				340E59D02226F6F30073249B /* main.m */,
+				340E59D52226F7260073249B /* DRMCodeChallenge.h */,
+				340E59D62226F7260073249B /* DRMCodeChallenge.m */,
+			);
+			path = CodeChallengesObjc;
+			sourceTree = "<group>";
+		};
 		348B81DC2226EFA600735CF8 = {
 			isa = PBXGroup;
 			children = (
-				348B81E72226EFA600735CF8 /* FizzBuzzObjc */,
+				340E59CF2226F6F30073249B /* CodeChallengesObjc */,
 				348B81E62226EFA600735CF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,39 +62,29 @@
 		348B81E62226EFA600735CF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				348B81E52226EFA600735CF8 /* FizzBuzzObjc */,
+				340E59CE2226F6F30073249B /* CodeChallengesObjc */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		348B81E72226EFA600735CF8 /* FizzBuzzObjc */ = {
-			isa = PBXGroup;
-			children = (
-				348B81E82226EFA600735CF8 /* main.m */,
-				348B81EF2226F1D900735CF8 /* DRMCodeChallenge.h */,
-				348B81F02226F1D900735CF8 /* DRMCodeChallenge.m */,
-			);
-			path = FizzBuzzObjc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		348B81E42226EFA600735CF8 /* FizzBuzzObjc */ = {
+		340E59CD2226F6F30073249B /* CodeChallengesObjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 348B81EC2226EFA600735CF8 /* Build configuration list for PBXNativeTarget "FizzBuzzObjc" */;
+			buildConfigurationList = 340E59D22226F6F30073249B /* Build configuration list for PBXNativeTarget "CodeChallengesObjc" */;
 			buildPhases = (
-				348B81E12226EFA600735CF8 /* Sources */,
-				348B81E22226EFA600735CF8 /* Frameworks */,
-				348B81E32226EFA600735CF8 /* CopyFiles */,
+				340E59CA2226F6F30073249B /* Sources */,
+				340E59CB2226F6F30073249B /* Frameworks */,
+				340E59CC2226F6F30073249B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FizzBuzzObjc;
-			productName = FizzBuzzObjc;
-			productReference = 348B81E52226EFA600735CF8 /* FizzBuzzObjc */;
+			name = CodeChallengesObjc;
+			productName = CodeChallengesObjc;
+			productReference = 340E59CE2226F6F30073249B /* CodeChallengesObjc */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,12 +96,12 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Dillon McElhinney";
 				TargetAttributes = {
-					348B81E42226EFA600735CF8 = {
+					340E59CD2226F6F30073249B = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 348B81E02226EFA600735CF8 /* Build configuration list for PBXProject "FizzBuzzObjc" */;
+			buildConfigurationList = 348B81E02226EFA600735CF8 /* Build configuration list for PBXProject "CodeChallengesObjc" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,24 +113,42 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				348B81E42226EFA600735CF8 /* FizzBuzzObjc */,
+				340E59CD2226F6F30073249B /* CodeChallengesObjc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		348B81E12226EFA600735CF8 /* Sources */ = {
+		340E59CA2226F6F30073249B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348B81F12226F1D900735CF8 /* DRMCodeChallenge.m in Sources */,
-				348B81E92226EFA600735CF8 /* main.m in Sources */,
+				340E59D72226F7260073249B /* DRMCodeChallenge.m in Sources */,
+				340E59D12226F6F30073249B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		340E59D32226F6F30073249B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		340E59D42226F6F30073249B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		348B81EA2226EFA600735CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -242,41 +260,23 @@
 			};
 			name = Release;
 		};
-		348B81ED2226EFA600735CF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		348B81EE2226EFA600735CF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		348B81E02226EFA600735CF8 /* Build configuration list for PBXProject "FizzBuzzObjc" */ = {
+		340E59D22226F6F30073249B /* Build configuration list for PBXNativeTarget "CodeChallengesObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				348B81EA2226EFA600735CF8 /* Debug */,
-				348B81EB2226EFA600735CF8 /* Release */,
+				340E59D32226F6F30073249B /* Debug */,
+				340E59D42226F6F30073249B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		348B81EC2226EFA600735CF8 /* Build configuration list for PBXNativeTarget "FizzBuzzObjc" */ = {
+		348B81E02226EFA600735CF8 /* Build configuration list for PBXProject "CodeChallengesObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				348B81ED2226EFA600735CF8 /* Debug */,
-				348B81EE2226EFA600735CF8 /* Release */,
+				348B81EA2226EFA600735CF8 /* Debug */,
+				348B81EB2226EFA600735CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

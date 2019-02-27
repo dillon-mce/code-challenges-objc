@@ -1,6 +1,6 @@
 //
 //  main.m
-//  FizzBuzzObjc
+//  CodeChallengesObjc
 //
 //  Created by Dillon McElhinney on 2/27/19.
 //  Copyright © 2019 Dillon McElhinney. All rights reserved.
@@ -18,9 +18,4 @@ int main(int argc, const char * argv[]) {
         
     }
     return 0;
-    
-
-    
 }
-
-
