@@ -14,7 +14,9 @@ int main(int argc, const char * argv[]) {
         
         DRMCodeChallenge *codeChallenge = [[DRMCodeChallenge alloc] init];
         
-        [codeChallenge fizzBuzzUpTo:100];
+        NSUInteger vowels = [codeChallenge numberOfVowels:@"HELLO WORLD!"];
+        
+        NSLog(@"\nThat string had %lu vowels", (unsigned long)vowels);
         
     }
     return 0;

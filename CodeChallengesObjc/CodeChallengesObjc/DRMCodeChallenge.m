@@ -27,4 +27,17 @@
     }
 }
 
+- (NSUInteger)numberOfVowels:(NSString *)string {
+    NSArray *vowels = @[@"a", @"e", @"i", @"o", @"u"];
+    NSMutableArray *wordArray = [NSMutableArray arrayWithCapacity:string.length];
+    for (int i = 0; i < string.length; i++) {
+        NSString *letter = [[string substringWithRange:NSMakeRange(i, 1)] lowercaseString];
+        wordArray[i] = letter;
+    }
+    
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF IN[c] %@", vowels];
+    
+    return [wordArray filteredArrayUsingPredicate:predicate].count;
+}
+
 @end

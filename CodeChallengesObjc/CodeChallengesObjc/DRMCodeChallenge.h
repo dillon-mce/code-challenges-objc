@@ -12,7 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DRMCodeChallenge : NSObject
 
--(void)fizzBuzzUpTo: (NSInteger)limit;
+- (void)fizzBuzzUpTo: (NSInteger)limit;
+
+- (NSUInteger)numberOfVowels: (NSString *)string;
 
 @end
 
