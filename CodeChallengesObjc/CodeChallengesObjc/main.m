@@ -14,9 +14,9 @@ int main(int argc, const char * argv[]) {
         
         DRMCodeChallenge *codeChallenge = [[DRMCodeChallenge alloc] init];
         
-        NSUInteger vowels = [codeChallenge numberOfVowels:@"HELLO WORLD!"];
+        BOOL isPalindrome = [codeChallenge isPalindrome:@"Carrace"];
         
-        NSLog(@"\nThat string had %lu vowels", (unsigned long)vowels);
+        NSLog(@"\nThat string was a palindrome: %hhd", isPalindrome);
         
     }
     return 0;

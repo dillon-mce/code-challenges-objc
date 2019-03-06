@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSUInteger)numberOfVowels: (NSString *)string;
 
+- (BOOL)isPalindrome: (NSString *)string;
+
 @end
 
 NS_ASSUME_NONNULL_END
